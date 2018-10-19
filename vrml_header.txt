@@ -1,0 +1,30 @@
+#VRML V2.0 utf8
+DirectionalLight { direction -1 -1 -1 }
+DirectionalLight { direction 1 1 1 }
+
+DEF Ball0 Shape {
+geometry Sphere { radius 0.5 }
+appearance Appearance {
+material Material {
+diffuseColor  .00 .000  .000
+shininess 1.0
+transparency  .4
+}}}
+
+DEF Ball1 Shape {
+geometry Sphere { radius 0.5 }
+appearance Appearance {
+material Material {
+diffuseColor  1.000 0.00  .000
+shininess 1.0
+transparency  .0
+}}}
+
+DEF Ball2 Shape {
+geometry Sphere { radius 0.5 }
+appearance Appearance {
+material Material {
+diffuseColor  .00 1.00  .000
+shininess 1.0
+transparency  .0
+}}}
